@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap');
+  
+  /* Custom input bootstrap */
+  textarea:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="date"]:focus,
+  input[type="month"]:focus,
+  input[type="time"]:focus,
+  input[type="week"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="color"]:focus,
+  select:focus,
+  .uneditable-input:focus {   
+    border-color: rgba(35, 35, 35, 0.01) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(35, 35, 35, 0.8) !important;
+    outline: 0 none !important;
+  }
+  /* Custom input bootstrap */
+  
+  /* Custom form */
+  .block-form {
+    border-radius: 0px !important;
+  }
+  /* Custom form */
+  
+  /* Custom hide arrows number input */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  /* Custom hide arrows number input */
+  
+  /* Custom button */
+  button[type="submit"] {
+    font-size: 13px;
+  }
+  /* Custom button */
+  
+  * {
+    font-family: Spartan;
+  }
+  
+  h1 {
+    font-family: Spartan;
+    font-weight: bold;
+  }
+  
+  label {
+    font-size: 13px;
+  }
+  
+  li.nav-item {
+    font-size: 13px;
+  }
+  
+  input:focus {
+    box-shadow: 2px solid #111 !important;
+  }
+  
+  .brand-logo {
+    font-family: Spartan;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .input {
+      width: 100% !important;
+    }
+  }
